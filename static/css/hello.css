@@ -1,0 +1,16 @@
+body {
+  background: #33ff33;
+}
+
+h1 {
+  font-family: fantasy, sans-serif;
+  text-align: center;
+  color: #4d2600;
+  font-size: 80px;
+  border: 2px solid #004d00;
+}
+
+p {
+  font-family: fantasy, sans-serif;
+  font-size: 20px;
+}
