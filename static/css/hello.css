@@ -1,5 +1,5 @@
-body {
-  background: #33ff33;
+/* body {
+  background-color: red;
 }
 
 h1 {
@@ -13,4 +13,8 @@ h1 {
 p {
   font-family: fantasy, sans-serif;
   font-size: 20px;
+} */
+h1 {
+  background-color: pink;
+  text-align: center;
 }
