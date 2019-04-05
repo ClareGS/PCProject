@@ -21,12 +21,8 @@ logger.addHandler(fh)
 #app = Flask("pcprojectApp")
 
 @flask_app.route("/")
-def hello():
-    return "Hello Clare & Paola"
-
-@flask_app.route("/<name>")
-def hello_someone(name):
-    return render_template("hello.html", name=name.title())
+def hello_someone():
+    return render_template("hello.html")
 
 logger.info('STARTING APP, TRY IT OUT!!!')
 
