@@ -10,35 +10,21 @@
 
   <body>
     <h1>Convert GBP to Euros</h1>
-    {% if name %}
-      <p>Hello {{name}}!</p>
 
-    {% else %}
-      <p>Hello anonymous person!</p>
-
-    {% endif %}
-
-    <p>Let's keep in touch!</p>
     <div id="contact-form">
-      <form method="post" action="/sign-up">
+      <form action="/currency" method="post">
         How many GBP do you want to exchange:<br>
-        <input type="text" name="GBP to EUR" value="GBP" required="required">
+        <input type="text" name="num" placeholder="enter amount" required="required">
         <br>
-        Last name:<br>
-        <!-- <input type="text" name="lastname" value="Last Name">
-        <br> -->
-        <!-- Email:<br>
-        <input type="email" id="email" name="email" value="Email">
-        <br><br> -->
         <input type="submit" value="Submit" id="submit-button">
         <br>
         <p>Please choose your currency to convert<p>
         <select name="currency">
           <option value="GBP">GBP</option>
           <option value="EUR">EUR</option>
-
-</select>
-</form>
+        </select>
+      </form>
+    </div>
   </body>
 
 </html>
