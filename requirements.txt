@@ -1,3 +1,6 @@
 Flask
 gunicorn
-waitress
+requests
+urllib3
+virtualenv
+Werkzeug
