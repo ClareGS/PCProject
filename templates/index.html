@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for("static",
+    filename="css/hello.css")}}">
+  <title>Paola & Clare Flask App Page</title>
+</head>
+
+<body>
+  <header>
+    <h1>Travelling to Europe?</h1>
+  </header>
+  <img src="./static/images/travelmoney.jpg" alt="Travel Money" class="centre">
+  <h1>Convert pound sterling to euros</h1>
+
+  <div>
+    <form action="/currency" method="post">
+      How many pounds do you plan to exchange?<br>
+      <input name="num" placeholder="enter amount" required="required">
+      <br>
+      <input type="submit" value="Submit" id="submit-button">
+      <br>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -9,7 +9,7 @@ flask_app = Flask(__name__)
 
 @flask_app.route("/")
 def hello():
-    return render_template("hello.html")
+    return render_template("index.html")
 
 @flask_app.route("/currency", methods=["POST"])
 def get_pounds():
